@@ -39,7 +39,7 @@ namespace std {
 /*
 swig -c++ -python mymodule.i
 
-// Both directive work
+// Both directives work
 cl /LD mymodule_wrap.cxx my_cpp_functions.cpp /o _mymodule.pyd -ID:\Softwares\Anaconda3\include D:\Softwares\Anaconda3\libs\python37.lib
 g++ -fPIC -shared mymodule_wrap.cxx my_cpp_functions.cpp -o _mymodule.pyd -ID:\Softwares\Anaconda3\include D:\Softwares\Anaconda3\libs\python37.lib
 */

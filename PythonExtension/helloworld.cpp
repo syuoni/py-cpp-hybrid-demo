@@ -48,5 +48,5 @@ int main()
     return 0;
 }
 
-//cl helloworld.cpp -ID:\Softwares\Anaconda3\include D:\Softwares\Anaconda3\libs\python37.lib
-//g++ -o helloworld helloworld.cpp -ID:\Softwares\Anaconda3\include D:\Softwares\Anaconda3\libs\python37.lib
+//cl /o helloworld_cl helloworld.cpp -ID:\Softwares\Anaconda3\include D:\Softwares\Anaconda3\libs\python37.lib
+//g++ -o helloworld_gpp helloworld.cpp -ID:\Softwares\Anaconda3\include D:\Softwares\Anaconda3\libs\python37.lib
