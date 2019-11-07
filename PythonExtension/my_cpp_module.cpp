@@ -62,4 +62,5 @@ PyMODINIT_FUNC PyInit_my_cpp_module(void){
     }
 }
 
+// cl /LD my_cpp_module.cpp /o my_cpp_module.pyd -ID:\Softwares\Anaconda3\include D:\Softwares\Anaconda3\libs\python37.lib
 // g++ -fPIC -shared my_cpp_module.cpp -o my_cpp_module.pyd -ID:\Softwares\Anaconda3\include D:\Softwares\Anaconda3\libs\python37.lib
