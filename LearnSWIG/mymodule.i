@@ -1,6 +1,10 @@
 /* File: mymodule.i */
 %module mymodule
 
+// SWIG copies everything in the %{ ... %} block to the resulting wrapper 
+// file (i.e., mymodule_wrap.cxx), as declarations of the wrapper file, 
+// but SWIG does NOT parse the text enclosed in the %{ ... %} block. 
+// SWIG parses the text outside the %{ ... %} block. 
 %{
 #include "my_cpp_functions.h"
 %}
